@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap");
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(atego5_1.jpg);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+.spisok {
+    vertical-align: auto;
+}
+.it a,
+.musik a,
+.Photo a {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-width: 2.4px;
+    border-style: solid;
+    padding: 25px 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.musik,
+.Photo {
+    margin: 23vh 0;
+    text-align: center;
+}
+.it {
+    margin-top: 137px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.it a:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.615);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.musik a:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.615);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Photo a:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.615);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.back {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.back:hover {
+    color: rgb(95, 95, 95);
+    /*     background-color: aliceblue;
+    border-radius: 15px; */
+}
